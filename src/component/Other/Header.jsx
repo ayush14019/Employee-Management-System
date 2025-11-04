@@ -1,21 +1,10 @@
-// import React from "react";
+const Header = ({ data }) => {
+  
 
-// const Header = () => {
-//   return (
-//     <div className="flex items-end justify-between">
-//       <h1 className="text-2xl font-medium">
-//         Hello <br /> <span className="text-3xl font-semibold">Ayush 👋</span>
-//       </h1>
-//       <button className="bg-red-600 text-lg font-medium text-white px-5 py-2 rounded-sm">Log out</button>
-//     </div>
-//   );
-// };
-
-// export default Header;
-
-import React from "react";
-
-const Header = () => {
+  const logOutUser = () => {
+    localStorage.setItem("loggedInuser","");
+    window.location.reload()
+  }
   return (
     <div className="flex items-center justify-between bg-linear-to-r from-[#1a1a1a] to-[#252525] rounded-2xl p-3 border border-gray-800 shadow-xl">
       <div className="flex items-center gap-4">
@@ -34,12 +23,15 @@ const Header = () => {
         <div>
           <p className="text-sm text-gray-400 font-medium">Welcome back,</p>
           <h1 className="text-2xl font-bold bg-linear-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Ayush 👋
+            username
           </h1>
         </div>
       </div>
 
-      <button className="group relative bg-linear-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-6 py-3 rounded-xl font-semibold text-sm transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-500/25 overflow-hidden">
+      <button
+        className="group relative bg-linear-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-6 py-3 rounded-xl font-semibold text-sm transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-red-500/25 overflow-hidden"
+        onClick={logOutUser}
+      >
         <span className="relative z-10 flex items-center gap-2">
           <svg
             className="w-4 h-4 transition-transform group-hover:rotate-12"

@@ -1,9 +1,57 @@
-import React from 'react'
+// import React from 'react'
 
-const FailedTask = () => {
+// const FailedTask = ({data}) => {
+//   return (
+//     <div className="shrink-0 h-full w-[348px] p-5 bg-yellow-400 rounded-xl">
+//       <div className="flex justify-between items-center ">
+//         <h3 className="bg-red-500 text-sm px-3 py-1 rounded">
+//           {data.category}
+//         </h3>
+//         <h4 className="text-sm">{data.taskDate}</h4>
+//       </div>
+//       <h2 className="mt-5 text-2xl font-semibold">{data.taskTitle}</h2>
+//       <p className="text-base mt-10">{data.taskDescription}</p>
+//       <div className="mt-2">
+//         <button className="w-full">Failed</button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default FailedTask
+
+
+import React from "react";
+import { XCircle } from "lucide-react";
+
+const FailedTask = ({ data }) => {
   return (
-    <div>FailedTask</div>
-  )
-}
+    <div className="shrink-0 w-[348px] p-5 rounded-2xl bg-linear-to-br from-yellow-400 to-amber-500 text-black shadow-lg hover:shadow-2xl transition-transform transform hover:scale-[1.02]">
+      {/* Header */}
+      <div className="flex justify-between items-center mb-3">
+        <h3 className="bg-black/20 text-sm px-3 py-1 rounded-md font-medium">
+          {data.category}
+        </h3>
+        <h4 className="text-sm opacity-80">{data.taskDate}</h4>
+      </div>
 
-export default FailedTask
+      {/* Title */}
+      <h2 className="mt-2 text-xl font-semibold">{data.taskTitle}</h2>
+
+      {/* Description */}
+      <p className="text-sm opacity-90 mt-4 leading-relaxed h-11">
+        {data.taskDescription}
+      </p>
+
+      {/* Button */}
+      <div className="mt-6">
+        <button className="w-full flex items-center justify-center gap-2 bg-yellow-700 text-white font-semibold py-2 rounded-md text-sm hover:bg-yellow-800 transition">
+          <XCircle size={20} />
+          Failed
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default FailedTask;
