@@ -2,7 +2,7 @@ import { XCircle } from "lucide-react";
 
 const FailedTask = ({ data }) => {
   return (
-    <div className="shrink-0 md:min-w-[348px] p-5 rounded-2xl bg-linear-to-br from-yellow-400 to-amber-500 text-black shadow-lg hover:shadow-2xl transition-transform transform hover:scale-[1.02]">
+    <div className="md:min-w-[348px] p-5 rounded-2xl bg-linear-to-br from-yellow-400 to-amber-500 text-black shadow-lg hover:shadow-2xl transition-transform transform hover:scale-[1.02]">
       {/* Header */}
       <div className="flex justify-between items-center mb-3">
         <h3 className="bg-black/20 text-sm px-3 py-1 rounded-md font-medium">

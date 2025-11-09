@@ -91,7 +91,7 @@ const Header = (props) => {
               </p>
               {getRoleBadge()}
             </div>
-            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold bg-linear-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent flex items-center gap-2">
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold bg-linear-to-r pl-3 from-white via-gray-100 to-gray-300 bg-clip-text text-transparent flex items-center gap-2">
               {getDisplayName()}
               <span className="text-2xl">👋</span>
             </h1>

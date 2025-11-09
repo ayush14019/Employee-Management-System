@@ -2,7 +2,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const CompleteTask = ({ data }) => {
   return (
-    <div className="shrink-0 md:min-w-[348px] p-5 rounded-2xl bg-linear-to-br from-blue-500 to-sky-600 text-white shadow-lg hover:shadow-2xl transition-transform transform hover:scale-[1.02]">
+    <div className=" md:min-w-[348px] p-5 rounded-2xl bg-linear-to-br from-blue-500 to-sky-600 text-white shadow-lg hover:shadow-2xl transition-transform transform hover:scale-[1.02]">
       {/* Header */}
       <div className="flex justify-between items-center mb-3">
         <h3 className="bg-white/20 text-sm px-3 py-1 rounded-md font-medium">
