@@ -5,10 +5,11 @@ import CompleteTask from "./CompleteTask";
 import FailedTask from "./FailedTask";
 
 const TaskList = ({ data }) => {
+  console.log(data)
   return (
     <div
       id="tasklist"
-      className="h-[55%] overflow-x-auto flex items-center justify-start gap-5 flex-nowrap w-full  py-5 mt-10"
+      className="h-auto min-h-[300px] md:h-[55%] flex flex-col md:flex-row md:overflow-x-auto items-stretch md:items-center justify-start gap-3 md:gap-5 md:flex-nowrap w-full py-3 md:py-5 mt-5 md:mt-10 px-2 md:px-0"
     >
       {data.tasks.map((elem, id) => {
         if (elem.active) {

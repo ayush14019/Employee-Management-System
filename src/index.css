@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-/* *{
-  color: #fff;
-} */
 body{
   background-color: #111;
 }
@@ -34,4 +31,17 @@ body{
 #tasklist::-webkit-scrollbar-thumb{
   background-color: rgb(143, 143, 143);
   border-radius: 50px;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
 }
