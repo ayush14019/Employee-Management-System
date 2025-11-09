@@ -274,8 +274,8 @@ Contributions are welcome! Please follow these steps:
 
 ** Ayush **
 
-- GitHub: [@yourusername](https://github.com/ayush14019)
-- LinkedIn: [Your Name](https://linkedin.com/in/ayush-raj-8bb362213)
+- GitHub: [ayush14019](https://github.com/ayush14019)
+- LinkedIn: [ayush-raj-8bb362213](https://linkedin.com/in/ayush-raj-8bb362213)
 - Email:  rajayush224@gmail.com
 
 ---
