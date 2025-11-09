@@ -5,7 +5,8 @@
 ![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![React-icons](https://img.shields.io/badge/React_Icons-4.x-E91E63?style=for-the-badge&logo=react&logoColor=white)
+![Lucide-react](https://img.shields.io/badge/Lucide_React-latest-F56565?style=for-the-badge&logo=lucide&logoColor=white)
 
 **A modern, responsive task management system for teams**
 
